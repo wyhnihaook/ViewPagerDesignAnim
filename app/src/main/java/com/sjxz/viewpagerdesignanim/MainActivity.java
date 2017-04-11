@@ -138,24 +138,6 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         viewPager.setAdapter(guidePagerAdapter);
         mViewPager.setOffscreenPageLimit(6);
         viewPager.setPageTransformer(false,new SplashAnimTransformer());
-        viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-            @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
-            }
-
-            @Override
-            public void onPageSelected(int position) {
-                SFragment data = (SFragment) viewPager.getAdapter().instantiateItem(viewPager, position);
-                data.initYM(position);
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int state) {
-
-            }
-        });
-
 
     }
 

@@ -7,7 +7,6 @@ import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 /**
  * @author WYH_Healer
@@ -19,7 +18,6 @@ public class SFragment extends Fragment {
 
     private CardView mCardView;
 
-    public TextView tv;
 
     public static SFragment sFragment;
 
@@ -39,14 +37,10 @@ public class SFragment extends Fragment {
         mCardView = (CardView) view.findViewById(R.id.cardView);
         mCardView.setMaxCardElevation(mCardView.getCardElevation()
                 * CardAdapter.MAX_ELEVATION_FACTOR);
-        tv=(TextView)view.findViewById(R.id.tv);
         return view;
     }
     public CardView getCardView() {
         return mCardView;
     }
 
-    public void initYM(int position){
-        tv.setText("页码："+(position+1));
-    }
 }

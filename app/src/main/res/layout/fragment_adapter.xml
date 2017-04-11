@@ -32,14 +32,6 @@
                 android:text="滑动到最后一页继续滑动自动跳转页面，总共6页，请开始滑动吧~" />
 
 
-            <TextView
-                android:id="@+id/tv"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:gravity="center|bottom"
-                android:textColor="@android:color/black"
-                android:text="页码: 1"/>
         </LinearLayout>
 
 
