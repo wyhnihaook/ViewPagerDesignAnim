@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewPagerDesignAnim</string>
+    <string name="title">标题渐变</string>
+
+    <string name="text">Healer学习ViewPager自定义动画效果；如果你也喜欢，欢迎您star一下fork一下哦~~</string>
+
+</resources>
